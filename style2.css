@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: border-box;
+}
+
+.main {
+    background-image: url(assest/img/bg.jpg);
+    height: 550px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.box {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0px;
+}
+
+.navbar {
+    justify-content: space-between;
+    display: flex;
+    height: 62px;
+    align-items: center;
+    margin: auto;
+    max-width: 80vh;
+
+}
+
+.logo {
+    position: relative;
+    z-index: 10;
+}
+
+.sign-in {
+    position: relative;
+    z-index: 10;
+    margin: 12px;
+}
+
+.sign {
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border-style: none;
+    border-radius: 4px;
+    font-size: 14px;
+    margin: 12px;
+}
+
+.english {
+    padding: 9px;
+    background-color: black;
+    opacity: 0.44;
+    border: 1px solid white;
+    color: white;
+}
+
+.hero {
+    font-family: 'martel sans', sans-serig;
+    ;
+    position: relative;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero .p1 {
+    margin-top: 120px;
+    font-weight: bold;
+
+    font-size: 41px;
+    text-align: center;
+}
+
+.hero .p2 {
+    font-size: 29px;
+    text-align: center;
+}
+
+.hero .p3 {
+    font-size: 22px;
+    padding: 10px;
+    text-align: center;
+}
+
+.email {
+    padding: 13px 19px 12px 15px;
+    background-color: black;
+    opacity: 0.44;
+    border: 1px solid white;
+    font-size: 15px;
+
+}
+
+.started {
+    padding: 12px;
+    background-color: red;
+    border-style: none;
+    font-weight: bold;
+    border-radius: 4px;
+    font-size: 17px;
+    color: white;
+}
+
+::placeholder {
+    color: rgb(255, 255, 255);
+    opacity: 5;
+}
+
+.sepration {
+    height: 2.1px;
+   background-color: rgb(73, 72, 72);
+}
+
+.first {
+    background-color: black;
+    color: white;
+    height: 500px;
+    width: 100%;
+}
+
+.box1 {
+    border-radius: 15px;
+    margin: 9px;
+    font-weight: bolder;
+    font-size: 35px;
+    width: 15%;
+    height: 350px;
+    background-image: linear-gradient( rgb(19, 20, 67), rgb(56, 37, 86));
+}
+.flex{
+ padding: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.box1 p {
+    margin: 33px 31px;
+    z-index: 10;
+
+}
+.para{
+    font-weight: bold;
+    font-size: 26px;
+    padding: 42px 4px 9px 240px;
+    display: block;
+    box-sizing: border-box;
+}
